@@ -96,3 +96,29 @@ p {
 .about-img {
   max-width: 100px;
 }
+
+@media (max-width: 576px) {
+  h1 {
+    font-size: 56px;
+  }
+  h2 {
+    font-size: 32px;
+  }
+  h3 {
+    font-size: 18px;
+  }
+  a {
+    display: block;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    width: 60%;
+  }
+
+  img {
+    width: 80%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
